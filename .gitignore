@@ -3,6 +3,7 @@
 .env.*
 !.env.example
 clay-session.json
+.treg/
 .claude/settings.local.json
 
 # lead lists and exports
