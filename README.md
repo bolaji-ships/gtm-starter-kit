@@ -1,10 +1,8 @@
 # GTM Starter Kit
 
-The skills and playbooks for the Treford GTM Engineering Bootcamp. Copy them into your own Context OS and Claude Code can use them straight away.
+Claude Code skills and playbooks for building go-to-market systems. Copy them into your own Context OS and Claude Code can use them straight away.
 
 ## What's inside
-
-Coming before the Week 1 build-along:
 
 - `.claude/skills/`: Claude Code skills for signal matrices, campaign strategy, workflow specs, campaign copy, copy grading and GTM flow charts on Miro
 - `knowledge-base/playbooks/`: the method docs those skills read
