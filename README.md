@@ -4,8 +4,27 @@ Claude Code skills and playbooks for building go-to-market systems. Copy them in
 
 ## What's inside
 
-- `.claude/skills/`: Claude Code skills for signal matrices, campaign strategy, workflow specs, campaign copy, copy grading and GTM flow charts on Miro
-- `knowledge-base/playbooks/`: the method docs those skills read
+The repo is laid out as a Context OS: one folder that holds everything Claude Code needs to know about your go-to-market.
+
+```
+.claude/skills/        Claude Code skills, one folder each with a SKILL.md
+context/
+  icp/                 ICP, personas, signal matrix
+  positioning/         positioning, value proposition, competitors
+  messaging/           core message, pillars, angles per persona
+  brand-kit/           tone of voice, key phrases, logos
+  docs/                research, case studies, GTM system map
+knowledge-base/
+  playbooks/           method docs the skills read
+  learnings/           what worked and what didn't
+meetings/              call notes, one file per meeting
+output/campaigns/      campaign strategy, one folder per workflow
+tools/                 scripts and tools, each with its own README
+weekly-priorities/     one file per week, linked to that week's work log
+work-log/              one file per week, every change timestamped
+```
+
+Empty folders hold a `.gitkeep` file so Git keeps them. `.env` (your API keys) is in `.gitignore` and never gets committed.
 
 ## How to use it
 
