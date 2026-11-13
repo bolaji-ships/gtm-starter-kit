@@ -27,6 +27,7 @@ Start a new Claude Code session afterwards so the skills load. Type `/` to see t
 | Skill | What it does |
 |---|---|
 | `build-clay` | Build or audit an outbound workbook: Companies table, people sourcing, one shared People table |
+| `clay-build-plan` | Turns an approved workflow spec into a step-by-step Clay build guide anyone can follow (why, click, type, check and cost for every step) plus a flow diagram of the tables. Writes instructions only |
 | `prompt-builder` | Per-row prompts for AI columns, with JSON output, tested on the model that runs them |
 | `campaign-contract`, `design-clay-table-json`, `import-clay-table`, `save-clay-schema` | Contract-first table builds: plan, design, import with a one-row proof and a budget check, then save the approved schema |
 | `calculate-costs`, `workspace-cost-audit` | What a table, or a whole workspace in a month, actually cost |
